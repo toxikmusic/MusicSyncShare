@@ -15,6 +15,16 @@
 
     <main class="container mt-4">
         <h1 class="mb-4">Latest Songs</h1>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <form id="upload-form" enctype="multipart/form-data">
+                    <div class="input-group">
+                        <input type="file" class="form-control" id="file-input" accept="audio/*" required>
+                        <button class="btn btn-primary" type="submit">Upload Song</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div id="song-feed" class="row">
             <!-- Songs will be dynamically inserted here -->
         </div>
