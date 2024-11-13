@@ -289,25 +289,19 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
-    { name = "botocore" },
     { name = "email-validator" },
     { name = "flask" },
     { name = "flask-sqlalchemy" },
     { name = "psycopg2-binary" },
-    { name = "sqlalchemy" },
-    { name = "werkzeug" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "boto3", specifier = ">=1.35.39" },
-    { name = "botocore", specifier = ">=1.35.39" },
     { name = "email-validator", specifier = ">=2.2.0" },
     { name = "flask", specifier = ">=3.0.3" },
     { name = "flask-sqlalchemy", specifier = ">=3.1.1" },
     { name = "psycopg2-binary", specifier = ">=2.9.9" },
-    { name = "sqlalchemy", specifier = ">=2.0.35" },
-    { name = "werkzeug", specifier = ">=3.0.4" },
 ]
 
 [[package]]
